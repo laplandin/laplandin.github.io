@@ -391,7 +391,7 @@ em {
     line-height: 26px;
 }
 
-.team,
+.advantages,
 .services {
     padding-top: 80px;
     background-color: #fff;
@@ -417,11 +417,11 @@ em {
     background-color: #3a454d;
 }
 
-.team-members {
+.advantages-items {
     padding-top: 5px;
 }
 
-.team-member {
+.advantage-item {
     position: relative;
     margin-left: 30px;
     margin-bottom: 100px;
@@ -430,34 +430,34 @@ em {
     background-color: #e1e6ea;
 }
 
-.team-member:hover {
+.advantage-item:hover {
     background-color: #fff;
 }
 
-.team-member:hover .member-name,
-.team-member:hover .member-position {
+.advantage-item:hover .member-name,
+.advantage-item:hover .member-position {
     color: #fff;
 }
 
-.team-member:hover .member-info {
+.advantage-item:hover .member-info {
     background-color: #3a454d;
 }
-.team-member:hover .team-member-img {
+.advantage-item:hover .team-member-img {
     opacity: 0.6;
 }
 
-.team-member:hover .actions {
+.advantage-item:hover .actions {
     display: block;
 }
 
-.team-member:first-child {
+.advantage-item:first-child {
     margin-left: 0;
 }
-.member-info {
+.advantage-info {
     padding-left: 20px;
 }
 
-.member-name {
+.advantage-name {
     padding-top: 17px;
     font-size: 16px;
     color: #292f36;
@@ -465,15 +465,15 @@ em {
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.member-position {
+.advantage-position {
     padding-top: 7px;
     padding-bottom: 20px;
     font-size: 14px;
     color: #8d8f92;
 }
 
-.member-2,
-.member-4 {
+.advantage-2,
+.advantage-4 {
     width: 262px;
 }
 .work,
