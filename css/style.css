@@ -538,6 +538,7 @@ em {
 }
 
 .principles-item {
+    position: relative;
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 100px;
@@ -550,12 +551,39 @@ em {
     margin-left: 0;
 }
 
-.principles-img {
-    margin: 0 auto 36px;
+.principles-item h3::before {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 48px;
+    height: 48px;
+}
+
+.princip-complex::before{
+    background: url(../img/icon-sprite.png);
+    background-position: 0px -58px;
+}
+
+.princip-technological::before {
+    background: url(../img/icon-sprite.png);
+    background-position: 0px 0px;
+}
+
+.princip-wide-geography::before {
+    background: url(../img/icon-sprite.png);
+    background-position: 0px -116px;
+}
+
+.princip-maintain::before {
+    background: url(../img/icon-sprite.png);
+    background-position: 0px -166px;
 }
 
 .principles-item h3 {
+    padding-top: 120px;
     margin-bottom: 21px;
 
     color: #292f36;
