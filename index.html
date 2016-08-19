@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>НеоЭкоДом</title>
-    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
-    <link href="css/reset.css" rel="stylesheet"> -->
-    <link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>НеоЭкоДом</title>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'> -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="site-wraper">
@@ -28,37 +28,37 @@
     </header>
     <main>
       <section class="banner">
-        <div class="welcome container">
-          <h1 class="welcome-title">Добро пожаловать в мир экологичного жилья</h1>
-          <p class="welcome-text">Добро пожаловать в мир чистоты и безопасности,
-             в мир уюта и комфорта, уже сегодня Вы можете заложить фундамент Вашего будущего!</p>
-          <!-- <div class="welcome-btns">
-              <a href="#" class="btn view-more-btn">view more</a>
-              <a href="#" class="btn video-tour-btn">video tour</a>
-          </div> -->
-          <!-- <div class="paginator">
-              <a class="toggle" href="#"></a>
-              <a class="toggle active-toggle" href="#"></a>
-              <a class="toggle" href="#"></a>
-          </div> -->
+        <div class="container">  
+          <div class="welcome">
+            <h1 class="welcome-title">Добро пожаловать в мир экологичного жилья</h1>
+            <p class="welcome-text">Добро пожаловать в мир чистоты и безопасности,
+               в мир уюта и комфорта, уже сегодня Вы можете заложить фундамент Вашего будущего!</p>
+            <!-- <div class="welcome-btns">
+                <a href="#" class="btn view-more-btn">view more</a>
+                <a href="#" class="btn video-tour-btn">video tour</a>
+            </div> -->
+            <!-- <div class="paginator">
+                <a class="toggle" href="#"></a>
+                <a class="toggle active-toggle" href="#"></a>
+                <a class="toggle" href="#"></a>
+            </div> -->
+          </div>
         </div>
       </section>
       <section class="about">
         <div class="container clearfix">
-          <h2 class="about-title section-title">Мы создаем будущее.</h2>
+          <h2 class="section-title about-title">Мы создаем будущее.</h2>
           <div class="about-missions">
-            <p class="mission mission-first-part">Вот уже 10 лет мы делаем мир лучше, чище и удобнее,
-               совершенствуя методики и технологии в строительстве  экологичного жилья. Используя
-               передовые достижения в области строительных материалов и опыт наших коллег по ремеслу
-               мы претворяем в жизнь Ваши желания об идеальном доме.
+            <p>
+              Вот уже 10 лет мы делаем мир лучше, чище и удобнее, совершенствуя методики и технологии в строительстве  экологичного жилья. Используя
+              передовые достижения в области строительных материалов и опыт наших коллег по ремеслу мы претворяем в жизнь Ваши желания об идеальном доме.
             </p>
-            <p class="mission mission-second-part">За время нашего существования нами построены более
-              20 домов с уникальным дизайном и индивидуальными особенностями как географического так
-              и технологического характера.. Результаты наших трудов можно найти на всей территории
-              Южного федерального округа.</p>
+            <p>
+              За время нашего существования нами построены более 20 домов с уникальным дизайном и индивидуальными особенностями как географического так и технологического характера. Результаты наших трудов можно найти на всей территории Южного федерального округа.
+            </p>
             <div class="about-social">
-              <a href="#" class="social-btn about-social-btn"><i class="icon-vk"></i></a>
-              <a href="#" class="social-btn about-social-btn"><i class="icon-classmates"></i></a>
+              <a href="#" class="social-btn social-btn-vk"></a>
+              <a href="#" class="social-btn social-btn-classmates"></a>
             </div>
           </div>
           <div class="about-goals">
@@ -69,7 +69,7 @@
               </p>
             </div>
             <div class="goal goal-2">
-              <h3 class="goal-title">Работа в тесном контакте с клиентом</h3>
+              <h3 class="goal-title">Работа в тесном контакте с&nbsp;клиентом</h3>
               <p class="goal-text">В процессе работы все наши специалисты
                 предоставляют исчерпывающую информацию
               </p>
@@ -86,61 +86,49 @@
         <div class="container clearfix">
           <h2 class="section-title">Почему именно экодом?</h2>
           <div class="advantages-items">
-            <div class="advantage-item advantage-1">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="advantage-img" src="" alt="modern" width="263" height="300">
+                <img class="advantage-img" src="img/advantage-modern.jpg" alt="modern" width="263" height="300">
+                <div class="actions">
+                  <p class="action-description">Класс огнеупорности от&nbsp;F45&nbsp;до&nbsp;F120</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Современно</p>
-                <!-- <p class="member-position">CEO and Founder</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
               </div>
             </div>
-            <div class="advantage-item advantage-2">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="advantage-img" src="img/team-2.jpg" alt="eco" width="262" height="300">
+                <img class="advantage-img" src="img/advantage-eco.jpg" alt="eco" width="262" height="300">
+                <div class="actions">
+                  <p class="action-description">Саморегуляция температуры и&nbsp;влажности</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Экологично</p>
-                <!-- <p class="member-position">Head of Development</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
-              </div>
+              </div>              
             </div>
-            <div class="advantage-item advantage-3">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="member-img" src="img/team-3.jpg" alt="energy-profit" width="263" height="300">
+                <img class="member-img" src="img/advantage-snugly.jpg" alt="energy-profit" width="263" height="300">
+                <div class="actions">
+                  <p class="action-description">Энергоэффективность 35-40&nbsp;кВч/м2&nbsp;в&nbsp;год</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Энергоэффективно</p>
-                <!-- <p class="member-position">Graphic Desinger</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
               </div>
             </div>
-            <div class="advantage-item advantage-4">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="advantage-img" src="img/team-4.jpg" alt="quite" width="262" height="300">
+                <img class="advantage-img" src="img/advantage-free-space.jpg" alt="quite" width="262" height="300">
+                <div class="actions">
+                  <p class="action-description">Высокая звукоизолирующая способность</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Тихо</p>
-                <!-- <p class="member-position">Client Service Director</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
-              </div>
+              </div>              
             </div>
           </div>
         </div>
