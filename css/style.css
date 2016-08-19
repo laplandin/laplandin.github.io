@@ -905,3 +905,18 @@ footer {
 .classmates-icon:hover {
     background-position: 0px -120px;
 }
+
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    font-size: .7em;
+    line-height: 1;
+}
+
+sup {
+    bottom: 1.4ex;
+}
+
+sub {
+    top: .5ex;
+}
