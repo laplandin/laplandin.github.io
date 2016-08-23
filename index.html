@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>НеоЭкоДом</title>
-    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
-    <link href="css/reset.css" rel="stylesheet"> -->
-    <link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>НеоЭкоДом</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:500,700&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="site-wraper">
@@ -28,7 +27,7 @@
     </header>
     <main>
       <section class="banner">
-        <div class="welcome container">
+        <div class="welcome">
           <h1 class="welcome-title">Добро пожаловать в мир экологичного жилья</h1>
           <p class="welcome-text">Добро пожаловать в мир чистоты и безопасности,
              в мир уюта и комфорта, уже сегодня Вы можете заложить фундамент Вашего будущего!</p>
@@ -45,20 +44,18 @@
       </section>
       <section class="about">
         <div class="container clearfix">
-          <h2 class="about-title section-title">Мы создаем будущее.</h2>
+          <h2 class="section-title about-title">Мы создаем будущее.</h2>
           <div class="about-missions">
-            <p class="mission mission-first-part">Вот уже 10 лет мы делаем мир лучше, чище и удобнее,
-               совершенствуя методики и технологии в строительстве  экологичного жилья. Используя
-               передовые достижения в области строительных материалов и опыт наших коллег по ремеслу
-               мы претворяем в жизнь Ваши желания об идеальном доме.
+            <p>
+              Вот уже 10 лет мы делаем мир лучше, чище и удобнее, совершенствуя методики и технологии в строительстве  экологичного жилья. Используя
+              передовые достижения в области строительных материалов и опыт наших коллег по ремеслу мы претворяем в жизнь Ваши желания об идеальном доме.
             </p>
-            <p class="mission mission-second-part">За время нашего существования нами построены более
-              20 домов с уникальным дизайном и индивидуальными особенностями как географического так
-              и технологического характера.. Результаты наших трудов можно найти на всей территории
-              Южного федерального округа.</p>
+            <p>
+              За время нашего существования нами построены более 20 домов с уникальным дизайном и индивидуальными особенностями как географического так и технологического характера. Результаты наших трудов можно найти на всей территории Южного федерального округа.
+            </p>
             <div class="about-social">
-              <a href="#" class="social-btn about-social-btn"><i class="icon-vk"></i></a>
-              <a href="#" class="social-btn about-social-btn"><i class="icon-classmates"></i></a>
+              <a href="#" class="social-btn social-btn-vk"></a>
+              <a href="#" class="social-btn social-btn-classmates"></a>
             </div>
           </div>
           <div class="about-goals">
@@ -69,7 +66,7 @@
               </p>
             </div>
             <div class="goal goal-2">
-              <h3 class="goal-title">Работа в тесном контакте с клиентом</h3>
+              <h3 class="goal-title">Работа в тесном контакте с&nbsp;клиентом</h3>
               <p class="goal-text">В процессе работы все наши специалисты
                 предоставляют исчерпывающую информацию
               </p>
@@ -86,60 +83,48 @@
         <div class="container clearfix">
           <h2 class="section-title">Почему именно экодом?</h2>
           <div class="advantages-items">
-            <div class="advantage-item advantage-1">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="advantage-img" src="" alt="modern" width="263" height="300">
+                <img class="advantage-img" src="img/advantage-modern.jpg" alt="modern" width="263" height="300">
+                <div class="actions">
+                  <p class="action-description">Класс огнеупорности от&nbsp;F45&nbsp;до&nbsp;F120</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Современно</p>
-                <!-- <p class="member-position">CEO and Founder</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
               </div>
             </div>
-            <div class="advantage-item advantage-2">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="advantage-img" src="img/team-2.jpg" alt="eco" width="262" height="300">
+                <img class="advantage-img" src="img/advantage-eco.jpg" alt="eco" width="262" height="300">
+                <div class="actions">
+                  <p class="action-description">Саморегуляция температуры и&nbsp;влажности</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Экологично</p>
-                <!-- <p class="member-position">Head of Development</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
               </div>
             </div>
-            <div class="advantage-item advantage-3">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="member-img" src="img/team-3.jpg" alt="energy-profit" width="263" height="300">
+                <img class="member-img" src="img/advantage-snugly.jpg" alt="energy-profit" width="263" height="300">
+                <div class="actions">
+                  <p class="action-description">Энергоэффективность 35&nbsp;-&nbsp;40&nbsp;кВч/м<sup>2</sup>&nbsp;в&nbsp;год</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Энергоэффективно</p>
-                <!-- <p class="member-position">Graphic Desinger</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
               </div>
             </div>
-            <div class="advantage-item advantage-4">
+            <div class="advantage-item">
               <div class="advantage-item-img">
-                <img class="advantage-img" src="img/team-4.jpg" alt="quite" width="262" height="300">
+                <img class="advantage-img" src="img/advantage-free-space.jpg" alt="quite" width="262" height="300">
+                <div class="actions">
+                  <p class="action-description">Высокая звукоизолирующая способность</p>
+                </div>
               </div>
               <div class="advantage-info">
                 <p class="advantage-name">Тихо</p>
-                <!-- <p class="member-position">Client Service Director</p> -->
-              </div>
-              <div class="actions">
-                <!-- <a href="#" class="action-social-btn"><i class="icon-twitter"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-facebook"></i></a>
-                <a href="#" class="action-social-btn"><i class="icon-linkedin2"></i></a> -->
               </div>
             </div>
           </div>
@@ -188,7 +173,7 @@
           <h2 class="principles-title section-title">Наши принципы.</h2>
             <div class="principles-item">
               <h3 class="princip-technological">Технологичность</h3>
-              <p>В процессе строительства мы используем только современные и зарекомендовавшие себя материалы и методы</p>
+              <p>Мы&nbsp;используем только современные и&nbsp;зарекомендовавшие себя материалы и&nbsp;методы</p>
             </div>
             <div class="principles-item">
               <h3 class="princip-complex">Комплексный подход</h3>
@@ -196,11 +181,11 @@
             </div>
             <div class="principles-item">
               <h3 class="princip-wide-geography">География работы</h3>
-              <p>Поле нашей деятельности уже давно покинуло пределы Ростовской области и распространилось на весь округ</p>
+              <p>Реализуем Ваши проекты на&nbsp;территории Ростовской области и&nbsp;всего Южного федерального округа</p>
             </div>
             <div class="principles-item">
               <h3 class="princip-maintain">Сопровождение 24/7</h3>
-              <p>Полное сопровождение проекта от рисунка до готового дома. Расчёт времени, полная координация процесса</p>
+              <p>Полное сопровождение проекта от&nbsp;рисунка до&nbsp;готового дома. Расчёт времени, полная координация процесса</p>
             </div>
           </div>
       </section>
@@ -208,20 +193,20 @@
         <section class="stereotypes container clearfix">
           <h2 class="stereotypes-title section-title">Разрушая стереотипы.</h2>
           <p class="coloumn">
-            В нашей ментальности сама идея о строительстве соломенных домов воспринимается с трудом, мы постараемся
-            развеять эти сомнения. Что представляет из себя соломенные блоки, которые мы используем при строительстве
-            дома? Это экологически чистый материал. По своей сути это прессованный тюк плотностью не менее 250 кг/м2
-            прямоугольной формы, состоящий из стеблей злаковых. Размеры соломенных блоков под строительство должны
-            быть шириной 500мм, высотой 400-450 мм, а их длина может меняться до 1200 мм, вес самого блока может
-            достигать до 24 кг.
+            В&nbsp;нашей ментальности сама идея о&nbsp;строительстве соломенных домов воспринимается с&nbsp;трудом, мы&nbsp;постараемся
+            развеять эти сомнения. Что представляет из&nbsp;себя соломенные блоки, которые мы&nbsp;используем при строительстве
+            дома? Это экологически чистый материал. По&nbsp;своей сути это прессованный тюк плотностью не&nbsp;менее 250&nbsp;кг/м<sup>2</sup>
+            прямоугольной формы, состоящий из&nbsp;стеблей злаковых. Размеры соломенных блоков под строительство должны
+            быть шириной 500&nbsp;мм, высотой 400-450&nbsp;мм, а&nbsp;их&nbsp;длина может меняться до&nbsp;1200&nbsp;мм, вес самого блока может
+            достигать до&nbsp;24&nbsp;кг.
           </p>
           <p class="coloumn">
-            Соломенные блоки горючи? Отнюдь!  Сам блок из соломы прессуется специальной техникой называемой
-            пресс-подборщик. В сжатом состоянии стебли соломы поджечь становиться практически не возможно,
+            Соломенные блоки горючи? Отнюдь! Сам блок из&nbsp;соломы прессуется специальной техникой называемой
+            пресс-подборщик. В&nbsp;сжатом состоянии стебли соломы поджечь становиться практически не&nbsp;возможно,
             так как внутри блока минимальное количество воздуха, поэтому при его горении обгорают лишь края.
-            В дальнейшем после укладки блоков стены оштукатуриваются глиняной или известково-песчаной штукатуркой,
-            в этом случае угроза возгорания такого дома в несколько раз ниже, чем деревянного сруба, так как такие
-            стены выдерживают нагрев до 850 0С в течение 90 мин.
+            В&nbsp;дальнейшем после укладки блоков стены оштукатуриваются глиняной или известково-песчаной штукатуркой,
+            в&nbsp;этом случае угроза возгорания такого дома в&nbsp;несколько раз ниже, чем деревянного сруба, так как такие
+            стены выдерживают нагрев до&nbsp;850&nbsp;&deg;&nbsp;С&nbsp;в&nbsp;течение 90&nbsp;мин.
           </p>
           <!-- Вместо второй линии преимуществ -->
         </section>
@@ -233,23 +218,27 @@
                 <div class="feature-item">
                     <img src="" class="feature-item-img" alt="feature-1" width="360" height="240">
                     <h3>Надежность</h3>
-                    <div class="feature-item-text">Основанием для строительства могут служить различные
-                      разновидности фундамента. Такие как : столбчатый или свайный фундаменты,
-                      железобетонный, и, фундамент выполненный по технологии укладки утепленной шведской плиты. </div>
+                    <p class="feature-item-text">
+                      Основанием для строительства могут служить различные
+                        разновидности фундамента. Такие как : столбчатый или свайный фундаменты,
+                        железобетонный, и, фундамент выполненный по&nbsp;технологии укладки утепленной шведской плиты.
+                    </p>
                 </div>
                 <div class="feature-item">
                     <img src="" class="feature-item-img" alt="feature-2" width="360" height="240">
                     <h3>Прочность</h3>
-                    <div class="feature-item-text">Стена из соломенных блоков высотой 2.44 м и длинной 3.66 м
-                      выдерживает без видимых признаков вертикальное давление 8000 кг и боковое в 325 кг,
-                      что целиком удовлетворяет всем строительным требованиям.</div>
+                    <p class="feature-item-text">Стена из&nbsp;соломенных блоков высотой 2.44&nbsp;м и&nbsp;длинной 3.66&nbsp;м
+                      выдерживает без видимых признаков вертикальное давление 8000&nbsp;кг и&nbsp;боковое в&nbsp;325&nbsp;кг,
+                      что целиком удовлетворяет всем строительным требованиям.
+                    </p>
                 </div>
                 <div class="feature-item">
                     <img src="" class="feature-item-img" alt="feature-3" width="360" height="240">
                     <h3>Долговечность</h3>
-                    <div class="feature-item-text">Срок службы домов из соломенных блоков составляет не менее
-                      100 лет. Микроорганизмы и насекомые не живут в сухой соломе за счет повышенного
-                      содержания кремнезема. Материал является долговечным и стойким.</div>
+                    <p class="feature-item-text">Срок службы домов из&nbsp;соломенных блоков составляет не&nbsp;менее
+                      100&nbsp;лет. Микроорганизмы и&nbsp;насекомые не&nbsp;живут в&nbsp;сухой соломе за&nbsp;счет повышенного
+                      содержания кремнезема. Материал является долговечным и&nbsp;стойким.
+                    </p>
                 </div>
             </div>
             </div>
@@ -294,7 +283,7 @@
     </main>
     <footer>
         <div class="container clearfix footer-container">
-            <div class="copyright">by Laplandin & Aleks-y</div>
+            <div class="copyright">by Laplandin &amp; Aleks-y</div>
             <div class="footer-social">
                 <a href="#" class="social-btn-footer vk-icon"></a>
                 <a href="#" class="social-btn-footer classmates-icon"></a>
