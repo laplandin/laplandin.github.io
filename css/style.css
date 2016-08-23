@@ -622,6 +622,10 @@ em {
   transition: opacity linear 0.2s;
 }
 
+.portfolio-item:hover .portfolio-action,
+.portfolio-item:hover .portfolio-description {
+  opacity: 1;
+}
 
 /*
 .work-action {
