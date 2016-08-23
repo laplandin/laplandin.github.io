@@ -71,7 +71,7 @@ table {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Arial', sans-serif;
 
   background-color: #f1f1f1;
 }
@@ -135,7 +135,8 @@ section h2 {
     color: #292f36;
     font-size: 36px;
     text-transform: uppercase;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Roboto', 'Tahoma' sans-serif;
+    font-weight: 700;
 }
 
 .work-title,
@@ -234,7 +235,7 @@ section h2::before {
     font-size: 36px;
     line-height: 42px;
     font-weight: 600;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: 'Roboto', 'Tahoma', sans-serif;
 
     color: #ffffff;
 }
@@ -247,7 +248,7 @@ section h2::before {
 
     font-size: 16px;
     line-height: 26px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
 
     color: #ccd0d7;
 }
@@ -294,7 +295,7 @@ section h2::before {
     width: 655px;
     float: left;
 
-    font-family: "OpenSans", sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
@@ -332,6 +333,7 @@ em {
     background-color: #c8cdd0;
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
+    background-position:
 }
 
 .social-btn:last-child {
@@ -339,11 +341,12 @@ em {
 }
 
 .social-btn-vk {
-    background-position: 0 0;
+
+    background-position: 9px 19px;
 }
 
 .social-btn-classmates {
-    background-position: 0 0;
+    background-position: 18px -35px;
 }
 
 .social-btn-vk:hover {
@@ -383,7 +386,7 @@ em {
     line-height: 50px;
     text-align: center;
     vertical-align: middle;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Roboto", 'Tahoma', sans-serif;
 
     background-color: #23b7a4;
     color: #ffffff;
@@ -407,7 +410,7 @@ em {
     font-size: 18px;
     line-height: 18px;
     vertical-align: top;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Roboto", 'Tahoma', sans-serif;
     text-transform: uppercase;
 
     color: #292f36;
@@ -416,7 +419,7 @@ em {
 .goal-text {
     font-size: 16px;
     line-height: 26px;
-    font-family: "OpenSans", sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
 
     color: #8d8f92;
 }
@@ -499,7 +502,7 @@ em {
 
     font-size: 14px;
     line-height: 26px;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Roboto", 'Tahoma', sans-serif;
     text-align: center;
 
     color: rgba(255, 255, 255, 0);
@@ -518,7 +521,7 @@ em {
 .advantage-name {
     font-size: 16px;
     text-transform: uppercase;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Roboto", 'Tahoma', sans-serif;
 
     color: #292f36;
 }
@@ -658,7 +661,7 @@ em {
     font-size: 17px;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Myriad Pro Regular', sans-serif;
+    font-family: 'Roboto Regular', 'Tahoma', sans-serif;
 }
 
 .principles-item p {
@@ -808,7 +811,7 @@ em {
     margin-bottom: 30px;
     padding-left: 15px;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 14px;
     color: #000;
     border-radius: 2px;
@@ -835,7 +838,7 @@ em {
     margin-bottom: 30px;
     padding: 15px;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 14px;
     color: #000;
     border-radius: 2px;
@@ -856,7 +859,7 @@ em {
 }
 
 footer {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 14px;
     color: #fff;
     background-color: #3a454d;
@@ -895,7 +898,7 @@ footer {
 }
 
 .vk-icon:hover {
-    background-position: 0px -85px;
+    background-position: 0px -105px;
 }
 
 .classmates-icon {
@@ -903,13 +906,13 @@ footer {
     height: 40px;
 
     background: url(../img/social-icon.png);
-    background-position: 0px -35px;
+    background-position: 0px -45px;
 
     vertical-align: middle;
 }
 
 .classmates-icon:hover {
-    background-position: 0px -120px;
+    background-position: 0px -150px;
 }
 
 sup, sub {
