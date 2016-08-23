@@ -431,14 +431,6 @@ em {
     background-color: #fff;
 }
 
-.actions {
-    display: none;
-    position: absolute;
-    top: 125px;
-    left: 56px;
-    font-size: 0px;
-}
-
 .advantages-items {
     padding-top: 5px;
 
@@ -453,17 +445,14 @@ em {
     margin-bottom: 100px;
     box-sizing: border-box;
 
+    color: #292f36;
     background-color: #e1e6ea;
 
-    transition: ease 0.3s;
+    transition: linear 0.2s;
 }
 
 .advantage-item:nth-of-type(4n) {
     margin-right: 0;
-}
-
-.advantage-item:hover {
-    background-color: #3a454d;
 }
 
 .advantage-item-img {
@@ -486,9 +475,10 @@ em {
 
     display: block;
 
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 0;
 
-    transition: ease 0.4s;
+    transition: opacity linear 0.2s;
 }
 
 .action-description {
@@ -506,11 +496,9 @@ em {
     font-family: "Roboto", 'Tahoma', sans-serif;
     text-align: center;
 
-    color: rgba(255, 255, 255, 0);
-    background-color: rgba(58, 69, 77, 0);
+    color: #ffffff;
+    background-color: rgba(58, 69, 77, 0.8);
     transform: translateY(-50%);
-
-    transition: ease 0.4s;
 }
 
 .advantage-info {
@@ -523,28 +511,15 @@ em {
     font-size: 16px;
     text-transform: uppercase;
     font-family: "Roboto", 'Tahoma', sans-serif;
-
-    color: #292f36;
 }
 
-.advantage-item:hover .actions {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
-.advantage-item:hover .action-description {
-    background-color: rgba(58, 69, 77, 0.9);
-    color: rgba(255, 255, 255, 1);
-}
-
-.advantage-item:hover .advantage-name {
+.advantage-item:hover {
+    background-color: #3a454d;
     color: #ffffff;
 }
 
-.advantage-position {
-    padding-top: 7px;
-    padding-bottom: 20px;
-    font-size: 14px;
-    color: #8d8f92;
+.advantage-item:hover .actions {
+    opacity: 1;
 }
 
 .work,
@@ -627,38 +602,6 @@ em {
   opacity: 1;
 }
 
-/*
-.work-action {
-    position: absolute;
-    display: none;
-    width: 324px;
-    left:0;
-    bottom: 0;
-    padding: 22px 18px;
-    text-transform: uppercase;
-    font-family: 'Roboto', 'Tahoma', sans-serif;
-    background-color: #292f36;
-    font-size: 18px;
-}
-
-.action-img {
-    position: absolute;
-    display: none;
-    top: 93px;
-    left: 175px;
-}
-.portfolio-img:hover .action-img {
-    display: block;
-}
-
-.portfolio-img:hover .work-action{
-    display: block;
-}
-
-.portfolio-img:hover .portfolio-item {
-    opacity: 0.5;
-}
-*/
 .work-more {
     width: 151px;
     margin: 31px auto 0;
