@@ -942,7 +942,7 @@ sub {
   left: 0;
   z-index: 10;
 
-  display: block;
+  display: none;
 
   background-color: rgba(58, 69, 77, 0.4);
 }
@@ -953,7 +953,7 @@ sub {
   left: 50%;
   z-index: 30;
 
-  display: block;
+  display: none;
   width: 600px;
   min-height: 300px;
   padding: 15px;
