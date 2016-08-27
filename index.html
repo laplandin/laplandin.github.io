@@ -18,10 +18,10 @@
         <nav class="menu">
           <ul>
             <!-- <li class="menu-item"><a href="#" class="menu-link">Домой</a></li> -->
-            <li class="menu-item"><a href="#about" class="menu-link">О нас</a></li>
-            <li class="menu-item"><a href="#projects" class="menu-link">Проекты</a></li>
-            <li class="menu-item"><a href="#features" class="menu-link">Преимущества</a></li>
-            <li class="menu-item"><a href="#contacts" class="menu-link">Контакты</a></li>
+            <li class="menu-item"><a data-scroll="Linear" href="#about" class="menu-link">О нас</a></li>
+            <li class="menu-item"><a data-scroll="Linear" href="#projects" class="menu-link">Проекты</a></li>
+            <li class="menu-item"><a data-scroll="Linear" href="#features" class="menu-link">Преимущества</a></li>
+            <li class="menu-item"><a data-scroll="Linear" href="#contacts" class="menu-link">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -42,7 +42,7 @@
               <a class="toggle" href="#"></a>
           </div> -->
         </div>
-      <a name="about"></a>
+      <a id="about"></a>
       </section>
       <section class="about">
         <div class="container clearfix">
@@ -56,7 +56,7 @@
               За время нашего существования нами построены более 20 домов с уникальным дизайном и индивидуальными особенностями как географического так и технологического характера. Результаты наших трудов можно найти на всей территории Южного федерального округа.
             </p>
             <div class="about-social">
-              <a href="#" class="social-btn social-btn-vk"></a>
+              <a href="https://vk.com/natur_proekt" target="_blank" class="social-btn social-btn-vk"></a>
               <a href="#" class="social-btn social-btn-classmates"></a>
             </div>
           </div>
@@ -132,7 +132,7 @@
           </div>
         </div>
       </section>
-      <a name="projects"></a>
+      <a id="projects"></a>
       <section class="work">
         <div class="container">
           <h2 class="work-title section-title">Наши проекты.</h2>
@@ -213,7 +213,7 @@
           </p>
           <!-- Вместо второй линии преимуществ -->
         </section>
-        <a name="features"></a>
+        <a id="features"></a>
         <section class="features">
             <div class="container clearfix">
             <h2>Наши преимущества</h2>
@@ -246,7 +246,7 @@
             </div>
             </div>
         </section>
-        <a name="contacts"></a>
+        <a id="contacts"></a>
         <section class="contact">
             <h2>Оставайся на связи.</h2>
             <div class="map" id="yandex-map"></div>
@@ -289,7 +289,7 @@
         <div class="container clearfix footer-container">
             <div class="copyright">by Laplandin &amp; Aleks-y</div>
             <div class="footer-social">
-                <a href="#" class="social-btn-footer vk-icon"></a>
+                <a href="https://vk.com/natur_proekt" target="_blank" class="social-btn-footer vk-icon"></a>
                 <a href="#" class="social-btn-footer classmates-icon"></a>
             </div>
         </div>
@@ -329,6 +329,8 @@
     </div>
     <div class="portfolio-popup" id="portfolio-eco-house"></div>
   <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=wc15HZjmHBwi-e2Te5x4_JDVotwbZ7qw&amp;width=100%&amp;height=346&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true&id=yandex-map"></script>
+  <script type="text/javascript" charset="utf-8" src="js/smooth-scroll.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <script>smoothScroll.init();</script>
 </body>
 </html>
