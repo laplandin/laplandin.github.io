@@ -324,6 +324,16 @@ em {
   font-size: 0;
 }
 
+.about-social p {
+  display: inline-block;
+
+  line-height: 60px;
+  vertical-align: top;
+
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
 .social-btn {
   display: inline-block;
   width: 60px;
