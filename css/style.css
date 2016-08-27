@@ -1096,6 +1096,23 @@ sub {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
+#gallery-thumbnail-adigeya-1:checked ~ .portfolio-gallery #gallery-adigeya-1,
+#gallery-thumbnail-adigeya-2:checked ~ .portfolio-gallery #gallery-adigeya-2,
+#gallery-thumbnail-adigeya-3:checked ~ .portfolio-gallery #gallery-adigeya-3,
+#gallery-thumbnail-adigeya-4:checked ~ .portfolio-gallery #gallery-adigeya-4,
+#gallery-thumbnail-adigeya-5:checked ~ .portfolio-gallery #gallery-adigeya-5 {
+  display: block;
+}
+
+#gallery-thumbnail-adigeya-1:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-adigeya-1"],
+#gallery-thumbnail-adigeya-2:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-adigeya-2"],
+#gallery-thumbnail-adigeya-3:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-adigeya-3"],
+#gallery-thumbnail-adigeya-4:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-adigeya-4"],
+#gallery-thumbnail-adigeya-5:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-adigeya-5"] {
+  opacity: 1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
 /*.portfolio-gallery-close {
   position: absolute;
   top: 15px;
