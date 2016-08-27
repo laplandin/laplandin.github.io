@@ -197,15 +197,17 @@ section h2::before {
   font-size: 14px;
 }
 
-.menu-item:hover {
+.menu-item:hover, .menu-link:hover  {
   border-radius: 3px;
-  box-shadow: 0 0 0 2px #5b6168;
+  /*box-shadow: 0 0 0 2px #5b6168;*/
+  box-shadow: 0 0 0 2px #23b7a4;
+  color: #23b7a4;
 }
 
-.menu-item-active {
+/*.menu-item-active {
   border-radius: 3px;
   box-shadow: 0 0 0 2px #23b7a4;
-}
+}*/
 
 .menu-item-active:hover {
   box-shadow: 0 0 0 2px #23b7a4;
