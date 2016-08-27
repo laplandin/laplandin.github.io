@@ -1,5 +1,5 @@
 $(document).ready( function() {
-  
+
   $('.portfolio-popup').addClass( function(index) {
     index++;
     return 'popup' + index;
@@ -14,7 +14,6 @@ $(document).ready( function() {
       if (key.which == 27) {
         $('.' + index).css('display','none');
         $('.overlay').css('display', 'none');
-        console.log(key.which);
       }
     });
   });
