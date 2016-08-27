@@ -1113,6 +1113,23 @@ sub {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
+#gallery-thumbnail-orehovaya-1:checked ~ .portfolio-gallery #gallery-orehovaya-1,
+#gallery-thumbnail-orehovaya-2:checked ~ .portfolio-gallery #gallery-orehovaya-2,
+#gallery-thumbnail-orehovaya-3:checked ~ .portfolio-gallery #gallery-orehovaya-3,
+#gallery-thumbnail-orehovaya-4:checked ~ .portfolio-gallery #gallery-orehovaya-4,
+#gallery-thumbnail-orehovaya-5:checked ~ .portfolio-gallery #gallery-orehovaya-5 {
+  display: block;
+}
+
+#gallery-thumbnail-orehovaya-1:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-orehovaya-1"],
+#gallery-thumbnail-orehovaya-2:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-orehovaya-2"],
+#gallery-thumbnail-orehovaya-3:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-orehovaya-3"],
+#gallery-thumbnail-orehovaya-4:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-orehovaya-4"],
+#gallery-thumbnail-orehovaya-5:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-orehovaya-5"] {
+  opacity: 1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
 /*.portfolio-gallery-close {
   position: absolute;
   top: 15px;
