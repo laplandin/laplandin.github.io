@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    line-height: 1;
+      line-height: 1;
 }
 ol, ul {
     list-style: none;
@@ -71,6 +71,8 @@ table {
 }
 
 body {
+  position: relative;
+
   font-family: 'Open Sans', 'Arial', sans-serif;
 
   background-color: #f1f1f1;
@@ -576,7 +578,6 @@ em {
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: 15;
 
   width: 100%;
   height: 60px;
@@ -921,7 +922,7 @@ footer {
 sup, sub {
     vertical-align: baseline;
     position: relative;
-    font-size: .7em;
+    font-size: 0.7em;
     line-height: 1;
 }
 
@@ -931,4 +932,156 @@ sup {
 
 sub {
     top: .5ex;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+
+  display: block;
+
+  background-color: rgba(58, 69, 77, 0.4);
+}
+
+.portfolio-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 30;
+
+  display: block;
+  width: 600px;
+  min-height: 300px;
+  padding: 15px;
+
+  background-color: #292f36;
+  box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.5);
+
+  transform: translate(-50%, -50%);
+}
+
+.portfolio-gallery {
+  position: relative;
+
+  margin-bottom: 15px;
+}
+
+.portfolio-gallery-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 100%;
+  padding: 10px 15px;
+
+  color: #ffffff;
+  background-image: linear-gradient(90deg, rgba(58, 69, 77, 0.8) 0%, rgba(58, 69, 77, 0.6) 80%, rgba(58, 69, 77, 0) 100%);
+}
+
+.portfolio-gallery-description h4 {
+  padding-bottom: 10px;
+
+  font-family: 'Roboto', 'Tahoma', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.portfolio-gallery-description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.portfolio-gallery img {
+  display: none;
+  width: 100%;
+  height: auto;
+
+  transition: 0.2s ease;
+}
+
+#gallery-thumbnail-azov-1:checked ~ .portfolio-gallery #gallery-azov-1,
+#gallery-thumbnail-azov-2:checked ~ .portfolio-gallery #gallery-azov-2,
+#gallery-thumbnail-azov-3:checked ~ .portfolio-gallery #gallery-azov-3,
+#gallery-thumbnail-azov-4:checked ~ .portfolio-gallery #gallery-azov-4 {
+  display: block;
+}
+
+.gallery-thumbnails {
+  display: block;
+  width: 100%;
+
+  font-size: 0;
+  text-align: center;
+}
+
+.gallery-thumbnail {
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  margin-right: 10px;
+
+  cursor: pointer;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.gallery-thumbnail:hover {
+  opacity: 1;
+}
+
+#gallery-thumbnail-azov-1:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-azov-1"],
+#gallery-thumbnail-azov-2:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-azov-2"],
+#gallery-thumbnail-azov-3:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-azov-3"],
+#gallery-thumbnail-azov-4:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-azov-4"] {
+  opacity: 1;
+  box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.5);
+}
+
+.gallery-thumbnail:nth-last-of-type {
+  margin-right: 0;
+}
+
+.portfolio-popup > input[type="radio"] {
+  display: none;
+}
+
+.gallery-thumbnail-azov {
+  background-image: url("../img/azov-sprite.png");
+}
+
+.gallery-thumbnail-azov-1 {
+  background-position: 0 0;
+}
+
+.gallery-thumbnail-azov-2 {
+  background-position: 0 -112px;
+}
+
+.gallery-thumbnail-azov-3 {
+  background-position: 0 -224px;
+}
+
+.gallery-thumbnail-azov-4 {
+  background-position: 0 -336px;
+}
+
+.portfolio-gallery-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+
+  display: block;
+  width: 30px;
+  height: 30px;
+
+  background-color: #3a454d;
 }
