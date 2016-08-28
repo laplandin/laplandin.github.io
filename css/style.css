@@ -831,7 +831,6 @@ em {
 .contact {
     padding-top: 65px;
     background-color: #fff;
-    border-bottom: 1px solid #dde1e4;
 }
 
 .contact h3 {
@@ -878,6 +877,7 @@ em {
   padding: 65px 0 60px 0;
 
   background-color: #ffffff;
+  border-bottom: 1px solid #dde1e4;
 }
 
 .team-members {
@@ -903,6 +903,9 @@ em {
 
 .team-member-photo {
   position: relative;
+
+  width: 360px;
+  height: 520px;
 }
 
 .team-member-photo img {
