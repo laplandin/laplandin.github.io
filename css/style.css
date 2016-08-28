@@ -1130,3 +1130,37 @@ sub {
   opacity: 1;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
+
+#gallery-thumbnail-rostovoblast-1:checked ~ .portfolio-gallery #gallery-rostovoblast-1,
+#gallery-thumbnail-rostovoblast-2:checked ~ .portfolio-gallery #gallery-rostovoblast-2,
+#gallery-thumbnail-rostovoblast-3:checked ~ .portfolio-gallery #gallery-rostovoblast-3,
+#gallery-thumbnail-rostovoblast-4:checked ~ .portfolio-gallery #gallery-rostovoblast-4,
+#gallery-thumbnail-rostovoblast-5:checked ~ .portfolio-gallery #gallery-rostovoblast-5 {
+  display: block;
+}
+
+#gallery-thumbnail-rostovoblast-1:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-rostovoblast-1"],
+#gallery-thumbnail-rostovoblast-2:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-rostovoblast-2"],
+#gallery-thumbnail-rostovoblast-3:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-rostovoblast-3"],
+#gallery-thumbnail-rostovoblast-4:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-rostovoblast-4"],
+#gallery-thumbnail-rostovoblast-5:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-rostovoblast-5"] {
+  opacity: 1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+#gallery-thumbnail-vinogradny-1:checked ~ .portfolio-gallery #gallery-vinogradny-1,
+#gallery-thumbnail-vinogradny-2:checked ~ .portfolio-gallery #gallery-vinogradny-2,
+#gallery-thumbnail-vinogradny-3:checked ~ .portfolio-gallery #gallery-vinogradny-3,
+#gallery-thumbnail-vinogradny-4:checked ~ .portfolio-gallery #gallery-vinogradny-4,
+#gallery-thumbnail-vinogradny-5:checked ~ .portfolio-gallery #gallery-vinogradny-5 {
+  display: block;
+}
+
+#gallery-thumbnail-vinogradny-1:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-vinogradny-1"],
+#gallery-thumbnail-vinogradny-2:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-vinogradny-2"],
+#gallery-thumbnail-vinogradny-3:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-vinogradny-3"],
+#gallery-thumbnail-vinogradny-4:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-vinogradny-4"],
+#gallery-thumbnail-vinogradny-5:checked ~ .gallery-thumbnails label[for="gallery-thumbnail-vinogradny-5"] {
+  opacity: 1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
