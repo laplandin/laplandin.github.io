@@ -992,6 +992,7 @@ sub {
           transform: translate(-50%, -50%);
 }
 
+
 .portfolio-popup > input[type="radio"] {
   display: none;
 }
@@ -1129,16 +1130,3 @@ sub {
   opacity: 1;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
-
-/*.portfolio-gallery-close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 10;
-
-  display: block;
-  width: 30px;
-  height: 30px;
-
-  background-color: #3a454d;
-}*/
