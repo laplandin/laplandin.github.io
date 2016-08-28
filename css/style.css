@@ -667,9 +667,33 @@ em {
     padding: 13px 20px;
 }
 
+.project-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 30;
+
+  display: none;
+  min-width: 300px;
+  max-width: 715px;
+  min-height: 30vh;
+  max-height: 80vh;
+  padding: 15px;
+
+  font-size: 0;
+
+  background-color: #292f36;
+  box-shadow: 0  0 15px 0 rgba(0, 1, 1, 0.7);
+
+  -webkit-transform: translate(-50%, -50%);
+
+          transform: translate(-50%, -50%);
+}
+
 .project-popup img {
-  width: 100%;
+  width: auto;
   height: auto;
+  max-height: 80vh;
 }
 
 .principles-item {
@@ -1080,7 +1104,7 @@ sub {
   background-color: rgba(58, 69, 77, 0.4);
 }
 
-.portfolio-popup, .project-popup {
+.portfolio-popup {
   position: fixed;
   top: 50%;
   left: 50%;
