@@ -44,7 +44,7 @@ $(document).ready( function() {
     $('.project-more').fadeOut();
   });
 
-  $('.portfolio-project li').click( function() {
+  $('.portfolio-project li').click( function(event) {
     event.preventDefault();
     $('.project-popup').css('display', 'block');
     $('.overlay').css('display', 'block');
