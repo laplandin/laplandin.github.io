@@ -1,0 +1,12 @@
+Гостевой дом в ст. Даховской, Адыгея
+Проект в процессе. Пока эскизы.
+
+background-position: 0px 0px;
+ 
+background-position: 0px -112px;
+ 
+background-position: 0px -224px;
+ 
+background-position: 0px -336px;
+ 
+background-position: 0px -448px;
