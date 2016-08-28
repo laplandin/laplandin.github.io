@@ -772,6 +772,7 @@ em {
 .contact {
     padding-top: 65px;
     background-color: #fff;
+    border-bottom: 1px solid #dde1e4;
 }
 
 .contact h3 {
@@ -812,6 +813,71 @@ em {
 .contact-info-text {
   width: 100%;
 
+}
+
+.team {
+  padding: 65px 0 60px 0;
+
+  background-color: #ffffff;
+}
+
+.team-members {
+  font-size: 0;
+}
+
+.team-member {
+  position: relative;
+
+  display: inline-block;
+  width: 360px;
+  min-height: 200px;
+  margin: 0 30px 30px 0;
+
+  font-size: 14px;
+
+  vertical-align: top;
+}
+
+.team-member:last-child {
+  margin-right: 0;
+}
+
+.team-member-photo {
+  position: relative;
+}
+
+.team-member-photo img {
+  width: 360px;
+  height: 520px;
+}
+
+.team-member-info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  min-height: 60px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+
+  color: #ffffff;
+  background-color: rgba(41, 47, 54, 0.7);
+}
+
+.team-member-name {
+  margin-bottom: 5px;
+
+  font-family: 'Roboto', 'Tahoma', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.team-member-description {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 14px;
 }
 
 .modal-content-contact-us {
