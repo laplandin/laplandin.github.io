@@ -628,13 +628,48 @@ em {
   opacity: 1;
 }
 
-.work-more {
+.portfolio-project {
+  display: none;
+}
+
+.portfolio-project ul {
+  list-style: none outside none;
+  padding-left: 0;
+}
+
+.portfolio-project li {
+  display: block;
+  float: left;
+  height: auto;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  width: 222px;
+  /*background-color: green;*/
+  box-sizing: border-box;
+}
+
+.portfolio-project a, .portfolio-project img {
+  width: 100%;
+  height: auto;
+
+}
+
+.work-more, .project-more {
     width: 151px;
     margin: 31px auto 0;
 }
 
+.project-more {
+  display: none;
+}
+
 .more-btn {
     padding: 13px 20px;
+}
+
+.project-popup img {
+  width: 100%;
+  height: auto;
 }
 
 .principles-item {
@@ -979,7 +1014,7 @@ sub {
   background-color: rgba(58, 69, 77, 0.4);
 }
 
-.portfolio-popup {
+.portfolio-popup, .project-popup {
   position: fixed;
   top: 50%;
   left: 50%;
