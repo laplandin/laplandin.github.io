@@ -31,9 +31,9 @@ $(document).ready( function() {
     $('.portfolio-project').delay(400).fadeIn();
     $('.project-more').delay(400).fadeIn();
 
-    $('.portfolio-project img').each( function(index) {
-      $(this).attr({ "src": $('.portfolio-project a').eq(index).attr("href") });
-    })
+    // $('.portfolio-project img').each( function(index) {
+    //   $(this).attr({ "src": $('.portfolio-project a').eq(index).attr("href") });
+    // })
   });
 
   $('.project-more a').click( function(event) {
